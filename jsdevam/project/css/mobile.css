@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.kurslar .kurs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.kurslar .kurs .kurs-image {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}

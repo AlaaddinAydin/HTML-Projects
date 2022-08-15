@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: cadetblue;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+}
+
+
+header ul li a {
+    margin-left: 3rem;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: rgb(95, 114, 160);
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+}
+
+.kurslar {
+    display: flex;
+    flex-direction: column;
+}
+
+.kurslar .kurs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.kurslar .kurs .kurs-bilgi {
+    margin: 0 1rem;
+}
+
+.kurslar .kurs .kurs-bilgi .title {
+    font-size: large;
+    margin-bottom: 0.3rem;
+}
+
+.kurslar .kurs .kurs-bilgi .description {
+    letter-spacing: 1.2px;
+    opacity: 0.6;
+    margin-bottom: 1rem;
+}
+
+#contact .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .container {
+    max-width: 700px;
+}

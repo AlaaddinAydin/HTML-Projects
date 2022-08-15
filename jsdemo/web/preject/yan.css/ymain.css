@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background: rgb(107, 1, 84);
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+ul li {
+    padding: 3em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background: #336ea2;
+    border-radius: 4px;
+    background-size: 1000rem;
+}
+
+/* home */
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#Home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#Home .name {
+    text-align: center;
+}
+
+#Home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#Home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#Home .name .nabers {
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8 3rem;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+/* Prodotcs */
+
+#Prodotcs {
+    
+    background: rgb(107, 1, 84);
+}
+
+#Prodotcs .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Prodotcs .items .item {
+    text-align: center;
+    width: 33%;
+    padding: 0.5rem;
+}
+
+#Prodotcs .items .item h3 {
+    padding-bottom: 0.5rem;
+}
+
+#Prodotcs .items .item:hover {
+    color: aqua;
+    opacity: 0.7;
+}
+
+/*  */

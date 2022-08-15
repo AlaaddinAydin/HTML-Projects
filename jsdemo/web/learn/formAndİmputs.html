@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form And İmputs</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <!---<button type="submit">Gönder</button>   alternatif-->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" id="password"> <br>
+
+        <br>
+        Gender <br>
+        Male
+        <input type="radio" name="gender" value="Male">
+        Female
+        <input type="radio" name="gender" value="Female">
+        other
+        <input type="radio" name="gender" value="other" checked><br><br>
+
+        hobbies <br>
+        tech
+        <input type="checkbox" name="tech" id="tech">
+        music
+        <input type="checkbox" name="music" id="music" checked>
+        art
+        <input type="checkbox" name="art" id="art">
+        <br>
+
+        <select name="degree" id="degree">
+            <option value="behelor">Lisans</option>
+            <option value="msc">Yüksek lisans</option>
+            <option value="phd" selected>Doktora</option>
+        </select>
+        <br>
+        <label for="message">message gir</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+        <br>
+        <label for="date">Date</label> <br>
+        <input type="date" name="date" id="date">
+        <button type="reset">Sıfırla</button>
+        <input type="submit" value="Submit">
+        <br>
+    </form>
+</body>
+
+</html>

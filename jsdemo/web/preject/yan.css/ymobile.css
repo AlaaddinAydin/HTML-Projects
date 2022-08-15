@@ -1,0 +1,24 @@
+#navbar {
+    overflow: hidden;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    height: 80px;
+}
+
+#navbar ul {
+
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80px;
+}
+
+#navbar ul li {
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+#navbar a {
+    padding: 0.3rem;
+    overflow: hidden;
+}

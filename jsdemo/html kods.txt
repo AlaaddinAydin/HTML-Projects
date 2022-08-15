@@ -1,0 +1,46 @@
+br : satır atla
+hr : çizgi çek
+h1 -h6 : sayı büyür yazı küçülür
+p : paragaf aç daha düzgün yaz
+img : resmin bağlantı linkini giriyon oluyo
+style : çok farklı onu öğrencen abi
+video : src ye videoyu araya bilgi metni gir
+	controle : öle hemen oynamaz sen bunu illa ekleyecen
+audio : src ye sesi
+	controle : ilal ekleyecen
+div : block olan birim
+span : inline olan birim
+id : sayfada bir tane olana yazacan
+class : sayfada tekrarlı elemanlara yazacan
+
+
+LİNK
+a : source a yaz linki sonra devamına metni
+
+TABLE                                                       !!!inline a wigth ve heigth atanmaz!!!
+table : tablo oluştumaca
+tr : table row satır açıyon
+th : table head bunalar tabledaki catogoriler denebilir
+td : bunlar tabledeki içerikler deneblilir 
+thead : table head css daha kolay ulaşsın ve kolay görmek için th içine alır
+tbody : table body css ualşsın sen iyi gör
+
+LİST
+	type: tipini değiştiriyon linin başına gelen simgenin
+ul : unordered list 
+ol : ordered list
+li : liste elemanı
+
+STYLE
+clasa ekleme yapcaksan . ile clas ismini yazacan 
+id ye ekleme yapacaksan # ile ekleme yapcan
+# id . class şeklinde tanımlanır
+#id.class idsi "id" classı "class" olana style uygulanır
+en son gelen style çalışır o yüzden en genelleri üste yaz sonra spesifikleri altına yaz
+üsten alta doğru çalışır
+
+
+FORMS
+label : text boxa odaklanmak için bir aracı odaklanmak için fora textbox idisini gir
+input : type ile textbox dan buttona kadara heşeye dönüşüyor
+
