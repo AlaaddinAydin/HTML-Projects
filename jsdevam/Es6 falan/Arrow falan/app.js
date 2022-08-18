@@ -34,7 +34,8 @@ console.log(cube(4)); */
 
 /* let number1, number2;
  */
-arr = [100, 200, 300, 400];
+
+//arr = [100, 200, 300, 400];
 
 /* [number1, number2] = arr;
  */
@@ -42,7 +43,7 @@ arr = [100, 200, 300, 400];
 /* const [number1, number2] = arr; */
 
 
-/* 
+/*
 console.log(number1,number2); */
 
 //obje destructing
@@ -62,7 +63,7 @@ console.log(number1, number2, number3); */
 
 
 //func destructing
-/* 
+/*
 const getLangs = () => ["python", "java", "c++"];
 
 const [lang1, lang2, lang3] = getLangs();
@@ -72,7 +73,7 @@ console.log(lang1,lang2,lang3); */
 
 
 //obje
-/* 
+/*
 const person = {
     name: "oha naebr",
     yaer: 2004,
@@ -96,7 +97,7 @@ bilgilerigöster(); */
 
 
 //console.log(...langs);
-/* 
+/*
 const langs2 = ["rann", "hooop",...langs];
 
 console.log() */
@@ -213,7 +214,7 @@ cities.set("istanbul", 15);
 cities.set("izmir", 4);
  */
 //for
-/* 
+/*
 cities.forEach(function (value, key) {
     console.log(key, value);
 }) */
@@ -248,7 +249,7 @@ console.log(lastMap); */
 //mapden array oluşturma
 
 
-const cities = new Map();
+/* const cities = new Map();
 
 cities.set("anklara", 5);
 cities.set("istanbul", 15);
@@ -257,4 +258,116 @@ cities.set("izmir", 4);
 const array = Array.from(cities);
 //[[][][]]
 
-console.log(array);
+console.log(array); */
+
+
+///primitive ve referans ayrımı
+
+/* let a = "mustafa";
+let b = "oha naber";
+
+if (a === b) {
+    console.log("eşit");
+} */
+
+
+/* let array1 = [1, 2, 3, 4, 5];
+let array2 = [1, 2, 3, 4, 5];
+   
+    //bellekte aynı adresi gösteriyor mu diye bakılıyor
+
+
+if (array1 === array2) {
+    console.log("eşit");
+} */
+
+
+/* const person1 = {
+    name: "mustafa",
+    age: 23
+}
+
+const person2 = {
+    name: "mustafa",
+    age: 23
+}
+
+
+if (person1 === person2) {
+    console.log("eşit");
+} */
+
+
+/* const cities = new Map();
+const key = [1, 2, 3];
+
+cities.set("ankara", 5);
+cities.set("istanbul", 15);
+cities.set(key, "array");
+
+    //referans veri tipleri bellketeki yere göre karşılaştırma
+    //primitive de değere göre karşılaştırma yapar
+
+console.log(cities.get(key)); */
+
+//Setler
+
+
+/* const myset = new Set();
+
+
+myset.add(100);
+myset.add(100);
+myset.add(3.14);
+myset.add("mustafa");
+myset.add(true);
+myset.add([1, 2, 3]);
+myset.add({ a: 1, b: 2 });
+
+//bir değer sadece bir defa yaılıyor
+
+const myset2 = new Set([100, 3.14, "mustafa"]);
+ */
+
+
+/* console.log(myset);
+console.log(myset2); */
+
+//size
+
+//console.log(myset.size);
+
+
+//delete
+
+/* myset.delete("mustafa");*/
+
+// has
+
+
+
+/* console.log(myset.has("mustafa"));
+console.log(myset.has(3.14));
+console.log(myset.has(2000));
+console.log(myset.has([1, 2, 3])); */
+
+//foreach
+
+
+/* myset.forEach(function (value) {
+    console.log(value);
+}); */
+
+
+//for offf
+
+/* for (let value of myset) {
+    console.log(value);
+} */
+
+//setlerden array
+
+
+/* const array = Array.from(myset);
+
+console.log(array); */
