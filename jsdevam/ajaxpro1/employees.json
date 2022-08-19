@@ -1,0 +1,19 @@
+[
+    {
+        "name": "mustafa ahmet mahmut",
+        "department": "bilişim",
+        "salary": 3500
+    },
+    
+    {
+        "name": "aynen abab",
+        "department": "bilişim",
+        "salary": 3000
+    },
+
+    {
+        "name": "tabi efendim",
+        "department": "pazarlama",
+        "salary": 5000
+    }
+]
