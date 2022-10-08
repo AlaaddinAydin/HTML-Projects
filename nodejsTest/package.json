@@ -1,0 +1,22 @@
+{
+  "name": "alaaddin",
+  "version": "1.0.0",
+  "description": "bu bir deneme paketidir",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oha": "echo 'aynen baba'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "paket"
+  ],
+  "author": "aynenbaba",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.8",
+    "simple-is": "^0.2.0"
+  }
+}
